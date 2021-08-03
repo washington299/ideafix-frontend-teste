@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Text = styled.h1`
-	font-size: var(--size-large);
-	color: var(--purple);
+export const Wrapper = styled.main`
+	display: flex;
+	padding: var(--size-extra-large) 0;
 `;
