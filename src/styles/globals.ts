@@ -23,10 +23,10 @@ export default createGlobalStyle`
 		--font-weight: 600;
 		--font-weight-bold: 700;
 
-		--size-extra-small: 0.5rem;
-		--size-small: 1rem;
-		--size-medium: 1.5rem;
-		--size-large: 2rem;
-		--size-extra-large: 4rem;
+		--size-extra-small: 0.5rem; // 8px
+		--size-small: 1rem; // 16px
+		--size-medium: 1.5rem; // 24px
+		--size-large: 2rem; // 32px
+		--size-extra-large: 4rem; //64px
 	}
 `;
