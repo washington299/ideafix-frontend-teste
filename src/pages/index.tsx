@@ -1,5 +1,7 @@
+import HomeTemplate from "templates/Home";
+
 const Home = () => {
-	return <div>teste</div>;
+	return <HomeTemplate />;
 };
 
 export default Home;
