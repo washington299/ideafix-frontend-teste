@@ -1,13 +1,18 @@
 import BlockOfNotes from "components/BlockOfNotes";
 import MyNotes from "components/MyNotes";
+import { NoteProps } from "types";
 
 import * as S from "./styles";
 
-const HomeTemplate = () => {
+type HomeTemplateProps = {
+	notes: NoteProps[];
+};
+
+const HomeTemplate = ({ notes }: HomeTemplateProps) => {
 	return (
 		<S.Wrapper>
 			<BlockOfNotes />
-			<MyNotes />
+			<MyNotes notes={notes} />
 		</S.Wrapper>
 	);
 };
