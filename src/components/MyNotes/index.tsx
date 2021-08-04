@@ -1,5 +1,7 @@
 import { NoteProps } from "types";
 
+import NoteCard from "components/NoteCard";
+
 import * as S from "./styles";
 
 type MyNotesProps = {
@@ -11,9 +13,11 @@ const MyNotes = ({ notes }: MyNotesProps) => {
 		<S.Wrapper>
 			<S.Title>Suas notas</S.Title>
 
-			{notes.map(({ id, title }) => (
-				<div key={id}>{title}</div>
-			))}
+			<S.Notes>
+				{notes.map(({ id, title, description }) => (
+					<NoteCard key={id} id={id} title={title} description={description} />
+				))}
+			</S.Notes>
 		</S.Wrapper>
 	);
 };
