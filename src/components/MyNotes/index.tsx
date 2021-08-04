@@ -3,7 +3,7 @@ import * as S from "./styles";
 const MyNotes = () => {
 	return (
 		<S.Wrapper>
-			<S.NoteTitle>Suas notas</S.NoteTitle>
+			<S.Title>Suas notas</S.Title>
 		</S.Wrapper>
 	);
 };
