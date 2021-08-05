@@ -6,7 +6,6 @@ export const Wrapper = styled.section`
 	width: 500px;
 	height: 100%;
 	padding: var(--size-large) var(--size-extra-large);
-	border-right: 3px solid var(--orange);
 
 	@media screen and (max-width: 940px) {
 		padding: var(--size-large) var(--size-large);
@@ -16,7 +15,6 @@ export const Wrapper = styled.section`
 		width: 100%;
 		padding: 0 0 var(--size-large) 0;
 		border-right: none;
-		border-bottom: 3px solid var(--orange);
 	}
 `;
 

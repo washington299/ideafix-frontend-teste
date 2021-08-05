@@ -5,6 +5,7 @@ import { title } from "styles/globalElements";
 export const Wrapper = styled.section`
 	flex: 1;
 	padding: var(--size-large) var(--size-extra-large);
+	border-left: 3px solid var(--orange);
 
 	@media screen and (max-width: 940px) {
 		padding: var(--size-large) var(--size-large);
@@ -13,6 +14,8 @@ export const Wrapper = styled.section`
 	@media screen and (max-width: 767px) {
 		width: 100%;
 		padding: var(--size-large) 0;
+		border-left: none;
+		border-top: 3px solid var(--orange);
 	}
 `;
 
