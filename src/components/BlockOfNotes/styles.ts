@@ -7,6 +7,12 @@ export const Wrapper = styled.section`
 	height: 100%;
 	padding: var(--size-large) var(--size-extra-large);
 
+	span {
+		display: block;
+		margin-top: var(--size-large);
+		text-align: center;
+	}
+
 	@media screen and (max-width: 940px) {
 		padding: var(--size-large) var(--size-large);
 	}
